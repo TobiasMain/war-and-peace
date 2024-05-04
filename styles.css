@@ -63,6 +63,10 @@ body {
 
 /* SECOND SECTION */
 
+.second-container {
+  background-color: aliceblue;
+  padding-bottom: 72px;
+}
 
 .second-container-header {
   text-align: center;
@@ -86,4 +90,24 @@ body {
 .images div {
   text-align: center;
   color: rgb(43, 53, 66);
+  max-width: 128px;
+}
+
+/* THIRD SECTION */
+
+.third-container {
+  background-color: rgb(43, 53, 66);
+  color: aliceblue;
+  padding: 72px 200px;
+}
+
+.quote {
+  font-size: 18px;
+}
+
+.quote-attribution {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: right;
+
 }
