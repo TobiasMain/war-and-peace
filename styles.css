@@ -61,6 +61,12 @@ body {
   margin-bottom: 8px;
 }
 
+.learn-more {
+  background-color: aliceblue;
+  border: none;
+  color: rgb(43, 53, 66);
+}
+
 /* SECOND SECTION */
 
 .second-container {
