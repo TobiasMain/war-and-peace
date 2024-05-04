@@ -41,6 +41,8 @@ body {
 
 .top-content {
   display: flex;
+  gap: 8px;
+  justify-content: space-between;
 }
 
 .top-content button {
@@ -51,4 +53,37 @@ body {
 .tolstoy {
   font-size: 32px;
   font-weight: 700;
+}
+
+.tolstoy,
+.tolstoy-info,
+.learn-more {
+  margin-bottom: 8px;
+}
+
+/* SECOND SECTION */
+
+
+.second-container-header {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 32px;
+  color: rgb(43, 53, 66);
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.images img {
+  border-radius: 8px;
+  border: solid 5px rgb(43, 53, 66);
+}
+
+.images div {
+  text-align: center;
+  color: rgb(43, 53, 66);
 }
