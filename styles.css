@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+.first-container {
+  background-color: rgb(43, 53, 66);
+  height: 300px;
+  padding: 16px 200px;
+  color: aliceblue;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 72px;
+}
+
+.header .header-links{
+  display: flex;
+  gap: 32px;
+  margin:0;
+  align-items: center;
+}
+
+.header .header-links li {
+  list-style-type: none;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* TOP SECTION CONTENT */
+
+.top-content {
+  display: flex;
+}
+
+.tolstoy {
+  font-size: 32px;
+  font-weight: 700;
+}
