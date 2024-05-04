@@ -8,6 +8,7 @@ body {
   background-color: rgb(43, 53, 66);
   height: 300px;
   padding: 16px 200px;
+  padding-bottom: 72px;
   color: aliceblue;
 }
 
@@ -40,6 +41,11 @@ body {
 
 .top-content {
   display: flex;
+}
+
+.top-content button {
+  border-radius: 8px;
+  padding: 8px 16px;
 }
 
 .tolstoy {
