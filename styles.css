@@ -109,5 +109,47 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-align: right;
+  margin-top: 8px;
+}
 
+/* FOURTH SECTION */
+
+.fourth-container {
+  padding: 50px 200px;
+  background-color: aliceblue;
+}
+
+.card {
+  display: flex;
+  background-color: rgb(43, 53, 66);
+  color: aliceblue;
+  padding: 32px 64px;
+  border-radius: 8px;
+
+}
+
+.card-header {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buy-button {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  background-color: rgb(43, 53, 66);
+  border: solid 2px aliceblue;
+  border-radius: 8px;
+  color:aliceblue;
+}
+
+/* footer */
+
+.footer {
+  background-color: rgb(43, 53, 66);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
 }
